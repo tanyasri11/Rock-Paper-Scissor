@@ -67,3 +67,18 @@ img{
     justify-content:center;
     align-items:center;
 }
+
+@media screen and (max-width:480px){
+   .choices{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    gap:3rem;
+   }
+        .choice{
+            height:100px;
+            width:100px;
+            margin-top:4px;
+            
+        }
